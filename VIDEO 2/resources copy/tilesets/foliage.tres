@@ -1,0 +1,106 @@
+[gd_resource type="TileSet" format=3 uid="uid://cpyfcaiins5n7"]
+
+[ext_resource type="Texture2D" uid="uid://dupynd3i5kacp" path="res://assets/environment/textures/Tiny Swords (Free Pack)/Terrain/Resources/Wood/Trees/Tree4.png" id="1_f6ei3"]
+[ext_resource type="Texture2D" uid="uid://0ek8661saceq" path="res://assets/environment/textures/Tiny Swords (Free Pack)/Terrain/Resources/Wood/Trees/Tree3.png" id="2_f3wsw"]
+[ext_resource type="Texture2D" uid="uid://dt3kylspy8r8p" path="res://assets/environment/textures/Tiny Swords (Free Pack)/Terrain/Decorations/Bushes/Bushe1.png" id="3_nclgb"]
+[ext_resource type="Texture2D" uid="uid://juc87rma4oh7" path="res://assets/environment/textures/Tiny Swords (Free Pack)/Terrain/Decorations/Bushes/Bushe2.png" id="4_dldca"]
+[ext_resource type="Texture2D" uid="uid://qhl0jmygi58" path="res://assets/environment/textures/Tiny Swords (Free Pack)/Terrain/Decorations/Bushes/Bushe3.png" id="5_8nfil"]
+[ext_resource type="Texture2D" uid="uid://b3j5apy3hehe2" path="res://assets/environment/tilesheets/Props.png" id="6_axiul"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_1ygvo"]
+texture = ExtResource("1_f6ei3")
+texture_region_size = Vector2i(192, 192)
+0:0/animation_speed = 8.0
+0:0/animation_mode = 1
+0:0/animation_frame_0/duration = 1.0
+0:0/animation_frame_1/duration = 1.0
+0:0/animation_frame_2/duration = 1.0
+0:0/animation_frame_3/duration = 1.0
+0:0/animation_frame_4/duration = 1.0
+0:0/animation_frame_5/duration = 1.0
+0:0/animation_frame_6/duration = 1.0
+0:0/animation_frame_7/duration = 1.0
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_khah1"]
+texture = ExtResource("2_f3wsw")
+texture_region_size = Vector2i(192, 192)
+0:0/animation_speed = 8.0
+0:0/animation_mode = 1
+0:0/animation_frame_0/duration = 1.0
+0:0/animation_frame_1/duration = 1.0
+0:0/animation_frame_2/duration = 1.0
+0:0/animation_frame_3/duration = 1.0
+0:0/animation_frame_4/duration = 1.0
+0:0/animation_frame_5/duration = 1.0
+0:0/animation_frame_6/duration = 1.0
+0:0/animation_frame_7/duration = 1.0
+0:0/0 = 0
+0:0/0/texture_origin = Vector2i(0, 64)
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_7ckqa"]
+texture = ExtResource("3_nclgb")
+texture_region_size = Vector2i(128, 128)
+0:0/animation_speed = 8.0
+0:0/animation_mode = 1
+0:0/animation_frame_0/duration = 1.0
+0:0/animation_frame_1/duration = 1.0
+0:0/animation_frame_2/duration = 1.0
+0:0/animation_frame_3/duration = 1.0
+0:0/animation_frame_4/duration = 1.0
+0:0/animation_frame_5/duration = 1.0
+0:0/animation_frame_6/duration = 1.0
+0:0/animation_frame_7/duration = 1.0
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_olj81"]
+texture = ExtResource("4_dldca")
+texture_region_size = Vector2i(128, 128)
+0:0/animation_speed = 8.0
+0:0/animation_mode = 1
+0:0/animation_frame_0/duration = 1.0
+0:0/animation_frame_1/duration = 1.0
+0:0/animation_frame_2/duration = 1.0
+0:0/animation_frame_3/duration = 1.0
+0:0/animation_frame_4/duration = 1.0
+0:0/animation_frame_5/duration = 1.0
+0:0/animation_frame_6/duration = 1.0
+0:0/animation_frame_7/duration = 1.0
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_r7dft"]
+texture = ExtResource("5_8nfil")
+texture_region_size = Vector2i(128, 128)
+0:0/animation_speed = 8.0
+0:0/animation_mode = 1
+0:0/animation_frame_0/duration = 1.0
+0:0/animation_frame_1/duration = 1.0
+0:0/animation_frame_2/duration = 1.0
+0:0/animation_frame_3/duration = 1.0
+0:0/animation_frame_4/duration = 1.0
+0:0/animation_frame_5/duration = 1.0
+0:0/animation_frame_6/duration = 1.0
+0:0/animation_frame_7/duration = 1.0
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_icpcy"]
+texture = ExtResource("6_axiul")
+texture_region_size = Vector2i(64, 64)
+0:0/0 = 0
+1:0/0 = 0
+2:0/0 = 0
+3:0/0 = 0
+4:0/0 = 0
+5:0/0 = 0
+7:0/0 = 0
+8:0/0 = 0
+6:0/0 = 0
+
+[resource]
+tile_size = Vector2i(32, 32)
+sources/0 = SubResource("TileSetAtlasSource_1ygvo")
+sources/1 = SubResource("TileSetAtlasSource_khah1")
+sources/2 = SubResource("TileSetAtlasSource_7ckqa")
+sources/3 = SubResource("TileSetAtlasSource_olj81")
+sources/4 = SubResource("TileSetAtlasSource_r7dft")
+sources/5 = SubResource("TileSetAtlasSource_icpcy")
