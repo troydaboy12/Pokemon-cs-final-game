@@ -1,0 +1,9 @@
+[gd_scene format=3 uid="uid://ciqo3xp41wxmh"]
+
+[ext_resource type="Script" uid="uid://12kfkojr377e" path="res://scenes/main/game_scene.gd" id="1_rfwcf"]
+[ext_resource type="PackedScene" uid="uid://5ohf7co2ij7c" path="res://test_map.tscn" id="1_sdya7"]
+
+[node name="GameScene" type="Node2D" unique_id=859288658 groups=["enemies"]]
+script = ExtResource("1_rfwcf")
+
+[node name="TestMap" parent="." unique_id=152066562 instance=ExtResource("1_sdya7")]
