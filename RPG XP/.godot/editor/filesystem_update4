@@ -1,0 +1,7 @@
+res://scenes/main/game_scene.tscn
+res://scenes/entities/enemies/enemie.tscn
+res://scenes/entities/player/player.tscn
+res://scenes/main/game_scene.gd
+res://scenes/entities/enemies/enemie.gd
+res://test_map.tscn
+res://scenes/entities/player/player.gd
