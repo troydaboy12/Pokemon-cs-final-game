@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://ciqo3xp41wxmh"]
+
+[ext_resource type="Script" uid="uid://12kfkojr377e" path="res://scenes/main/game_scene.gd" id="1_rfwcf"]
+[ext_resource type="PackedScene" uid="uid://5ohf7co2ij7c" path="res://test_map.tscn" id="1_sdya7"]
+[ext_resource type="PackedScene" uid="uid://ciscpy5mr1kh6" path="res://scenes/main/end_game_screen.tscn" id="2_5odut"]
+
+[node name="GameScene" type="Node2D" unique_id=859288658]
+script = ExtResource("1_rfwcf")
+end_game_screen_packed = ExtResource("2_5odut")
+
+[node name="TestMap" parent="." unique_id=152066562 instance=ExtResource("1_sdya7")]
+position = Vector2(-685, -356)
+
+[node name="UI" type="CanvasLayer" parent="." unique_id=1292733870]

@@ -1,0 +1,14 @@
+AudioStreamPlayer
+AudioStreamPlayer2D
+AudioListener2D
+CanvasLayer
+CanvasGroup
+TileMapLayer
+TileMap
+Node2D
+NavigationAgent2D
+AnimationPlayer
+Sprite2D
+CollisionShape2D
+Area2D
+AnimationTree

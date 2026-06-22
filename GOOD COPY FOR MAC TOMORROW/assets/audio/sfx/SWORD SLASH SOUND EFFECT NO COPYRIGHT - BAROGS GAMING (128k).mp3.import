@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cmugyhektqe04"
+path="res://.godot/imported/SWORD SLASH SOUND EFFECT NO COPYRIGHT - BAROGS GAMING (128k).mp3-6985947f0bd6dad2dd55248e1bb234b1.mp3str"
+
+[deps]
+
+source_file="res://assets/audio/sfx/SWORD SLASH SOUND EFFECT NO COPYRIGHT - BAROGS GAMING (128k).mp3"
+dest_files=["res://.godot/imported/SWORD SLASH SOUND EFFECT NO COPYRIGHT - BAROGS GAMING (128k).mp3-6985947f0bd6dad2dd55248e1bb234b1.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
